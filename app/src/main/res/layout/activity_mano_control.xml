@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManoControl">
+
+
+    <Button
+        android:id="@+id/uno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="100dp"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/dos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/tres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:text="3" />
+
+
+    <Button
+        android:id="@+id/cuatro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/cinco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/abrir"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="100dp"
+        android:text="Abrir" />
+
+    <Button
+        android:id="@+id/cerrar"
+        android:layout_width="133dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="100dp"
+        android:text="Cerrar"/>
+
+    <Button
+        android:id="@+id/paz"
+        android:layout_width="133dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="100dp"
+        android:text="Paz y amor"/>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="133dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="100dp"
+        android:text="Ok"/>
+
+    <Button
+        android:id="@+id/saludo"
+        android:layout_width="133dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="100dp"
+        android:text="Saludo"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desconectar"
+        android:id="@+id/des"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="100dp"
+        />
+
+</RelativeLayout>
